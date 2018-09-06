@@ -1,0 +1,136 @@
+Sep  5, 2018 15:42:13.386040443 CEST|Google_4b:4c:5a|da:a1:19:4b:4c:5a|-95|
+Sep  5, 2018 15:42:15.245693415 CEST|AsustekC_03:ad:0c|d0:17:c2:03:ad:0c|-81|
+Sep  5, 2018 15:42:15.251623657 CEST|AsustekC_03:ad:0c|d0:17:c2:03:ad:0c|-75|
+Sep  5, 2018 15:42:15.270501972 CEST|AsustekC_03:ad:0c|d0:17:c2:03:ad:0c|-81|
+Sep  5, 2018 15:42:15.298691547 CEST|AsustekC_03:ad:0c|d0:17:c2:03:ad:0c|-87|
+Sep  5, 2018 15:42:20.523341604 CEST|1d:48:2f:94:1c:c0|1d:48:2f:94:1c:c0||0U1�]�U�qY�9���z�
+^��	Dhy�$���S���I0G.1A�sTl��
+oy��.�
+<��0r7#x��S�aF�vNR���yi`{�q���rc����_�O8��W�S�����Mn_�����6���
+Sep  5, 2018 15:42:20.524265730 CEST|1d:48:2f:94:1c:c0|1d:48:2f:94:1c:c0||0U1�]�U�qY�9���z�
+^��	Dhy�$���S���I0G.1A�sTl��
+oy��.�
+<��0r7#x��S�aF�vNR���yi`{�q���rc����_�O8��W�S�����Mn_�����6���
+Sep  5, 2018 15:42:20.524270855 CEST|1d:48:2f:94:1c:c0|1d:48:2f:94:1c:c0||0U1�]�U�qY�9���z�
+^��	Dhy�$���S���I0G.1A�sTl��
+oy��.�
+<��0r7#x��S�aF�vNR���yi`{�q���rc����_�O8��W�S�����Mn_�����6���
+Sep  5, 2018 15:42:20.524272039 CEST|1d:48:2f:94:1c:c0|1d:48:2f:94:1c:c0||0U1�]�U�qY�9���z�
+^��	Dhy�$���S���I0G.1A�sTl��
+oy��.�
+<��0r7#x��S�aF�vNR���yi`{�q���rc����_�O8��W�S�����Mn_�����6���
+Sep  5, 2018 15:42:20.524274154 CEST|1d:48:2f:94:1c:c0|1d:48:2f:94:1c:c0|-79|
+Sep  5, 2018 15:42:20.525643752 CEST|1d:48:2f:94:1c:c0|1d:48:2f:94:1c:c0|-79|
+Sep  5, 2018 15:42:20.526876995 CEST|1d:48:2f:94:1c:c0|1d:48:2f:94:1c:c0|-79|
+Sep  5, 2018 15:42:20.529274488 CEST|1d:48:2f:94:1c:c0|1d:48:2f:94:1c:c0|-79|
+Sep  5, 2018 15:42:22.307315783 CEST|Apple_7c:ef:55|78:4f:43:7c:ef:55|-91|
+Sep  5, 2018 15:42:26.581268946 CEST|3a:ec:4c:7f:d3:b4|3a:ec:4c:7f:d3:b4|-75|
+Sep  5, 2018 15:42:26.645973820 CEST|3a:ec:4c:7f:d3:b4|3a:ec:4c:7f:d3:b4|-81|
+Sep  5, 2018 15:42:27.284084572 CEST|f2:21:4d:c3:2d:31|f2:21:4d:c3:2d:31|-82|
+Sep  5, 2018 15:42:27.304487106 CEST|f2:21:4d:c3:2d:31|f2:21:4d:c3:2d:31|-86|
+Sep  5, 2018 15:42:28.174037462 CEST|Apple_20:17:d2|f0:18:98:20:17:d2|-63|wlan_saltuaria
+Sep  5, 2018 15:42:28.191591175 CEST|Apple_20:17:d2|f0:18:98:20:17:d2|-61|wlan_saltuaria
+Sep  5, 2018 15:42:30.443805033 CEST|02:91:1b:6e:9b:25|02:91:1b:6e:9b:25|-71|
+Sep  5, 2018 15:42:30.553666442 CEST|02:91:1b:6e:9b:25|02:91:1b:6e:9b:25|-86|
+Sep  5, 2018 15:42:31.109842723 CEST|62:11:94:3f:3e:7a|62:11:94:3f:3e:7a|-77|
+Sep  5, 2018 15:42:31.137928326 CEST|62:11:94:3f:3e:7a|62:11:94:3f:3e:7a|-81|
+Sep  5, 2018 15:42:33.357000528 CEST|Google_6f:35:ea|da:a1:19:6f:35:ea|-75|
+Sep  5, 2018 15:42:33.378600008 CEST|Google_6f:35:ea|da:a1:19:6f:35:ea|-77|
+Sep  5, 2018 15:42:34.734355662 CEST|Apple_39:97:4e|88:e9:fe:39:97:4e|-87|polimi-protected
+Sep  5, 2018 15:42:38.904422955 CEST|LgElectr_86:03:c2|f8:a9:d0:86:03:c2|-81|
+Sep  5, 2018 15:42:40.104039267 CEST|SamsungE_a4:c7:f6|84:b5:41:a4:c7:f6|-64|Guglielmo
+Sep  5, 2018 15:42:40.106502624 CEST|SamsungE_a4:c7:f6|84:b5:41:a4:c7:f6|-63|Wireless@SG
+Sep  5, 2018 15:42:40.108949267 CEST|SamsungE_a4:c7:f6|84:b5:41:a4:c7:f6|-65|Guglielmo
+Sep  5, 2018 15:42:40.115009854 CEST|SamsungE_a4:c7:f6|84:b5:41:a4:c7:f6|-63|Wireless@SG
+Sep  5, 2018 15:42:40.116945170 CEST|SamsungE_a4:c7:f6|84:b5:41:a4:c7:f6|-63|Guglielmo
+Sep  5, 2018 15:42:40.116947054 CEST|SamsungE_a4:c7:f6|84:b5:41:a4:c7:f6|-64|Wireless@SG
+Sep  5, 2018 15:42:40.117998353 CEST|SamsungE_a4:c7:f6|84:b5:41:a4:c7:f6|-63|Guglielmo
+Sep  5, 2018 15:42:40.125218206 CEST|SamsungE_a4:c7:f6|84:b5:41:a4:c7:f6|-64|Guglielmo
+Sep  5, 2018 15:42:40.126474719 CEST|SamsungE_a4:c7:f6|84:b5:41:a4:c7:f6|-63|Wireless@SG
+Sep  5, 2018 15:42:40.127567151 CEST|SamsungE_a4:c7:f6|84:b5:41:a4:c7:f6|-68|Guglielmo
+Sep  5, 2018 15:42:40.133435515 CEST|SamsungE_a4:c7:f6|84:b5:41:a4:c7:f6|-66|Wireless@SG
+Sep  5, 2018 15:42:40.135773284 CEST|SamsungE_a4:c7:f6|84:b5:41:a4:c7:f6|-68|Guglielmo
+Sep  5, 2018 15:42:40.138249326 CEST|SamsungE_a4:c7:f6|84:b5:41:a4:c7:f6|-68|Wireless@SG
+Sep  5, 2018 15:42:40.148313248 CEST|SamsungE_a4:c7:f6|84:b5:41:a4:c7:f6|-73|Wireless@SG
+Sep  5, 2018 15:42:40.155354095 CEST|SamsungE_a4:c7:f6|84:b5:41:a4:c7:f6|-75|Guglielmo
+Sep  5, 2018 15:42:40.325280031 CEST|RivetNet_f1:c2:91|9c:b6:d0:f1:c2:91|-84|wlan_saltuaria-N
+Sep  5, 2018 15:42:40.334764113 CEST|RivetNet_f1:c2:91|9c:b6:d0:f1:c2:91|-85|wlan_saltuaria-N
+Sep  5, 2018 15:42:40.572358802 CEST|Apple_c9:0d:55|f4:5c:89:c9:0d:55|-71|wlan_saltuaria
+Sep  5, 2018 15:42:40.685338799 CEST|Apple_c9:0d:55|f4:5c:89:c9:0d:55|-75|wlan_saltuaria
+Sep  5, 2018 15:42:41.200185383 CEST|RivetNet_f1:c2:91|9c:b6:d0:f1:c2:91|-88|wlan_saltuaria-N
+Sep  5, 2018 15:42:44.399722267 CEST|Azurewav_25:42:b7|74:c6:3b:25:42:b7|-74|
+Sep  5, 2018 15:42:44.760541067 CEST|Azurewav_25:42:b7|74:c6:3b:25:42:b7|-76|
+Sep  5, 2018 15:42:44.794082462 CEST|Azurewav_25:42:b7|74:c6:3b:25:42:b7|-78|
+Sep  5, 2018 15:42:45.130685644 CEST|Azurewav_bf:8b:f9|74:c6:3b:bf:8b:f9|-76|
+Sep  5, 2018 15:42:45.707506485 CEST|Apple_39:97:4e|88:e9:fe:39:97:4e|-88|polimi-protected
+Sep  5, 2018 15:42:45.896290486 CEST|Apple_39:97:4e|88:e9:fe:39:97:4e|-89|polimi-protected
+Sep  5, 2018 15:42:46.769934420 CEST|AsustekC_1b:f0:b7|30:5a:3a:1b:f0:b7|-75|
+Sep  5, 2018 15:42:46.799738511 CEST|AsustekC_1b:f0:b7|30:5a:3a:1b:f0:b7|-78|
+Sep  5, 2018 15:42:46.856578249 CEST|AsustekC_1b:f0:b7|30:5a:3a:1b:f0:b7|-77|
+Sep  5, 2018 15:42:49.879024726 CEST|Apple_ca:11:0d|ac:e4:b5:ca:11:0d|-92|polimi-protected
+Sep  5, 2018 15:42:49.888061556 CEST|Apple_ca:11:0d|ac:e4:b5:ca:11:0d|-94|polimi-protected
+Sep  5, 2018 15:42:51.492427662 CEST|Apple_7c:ef:55|78:4f:43:7c:ef:55|-89|
+Sep  5, 2018 15:42:54.457851408 CEST|1e:9d:ef:c3:76:ef|1e:9d:ef:c3:76:ef|-88|
+Sep  5, 2018 15:42:54.479896625 CEST|1e:9d:ef:c3:76:ef|1e:9d:ef:c3:76:ef|-88|
+Sep  5, 2018 15:42:57.119641032 CEST|Raspberr_4e:c9:c5|b8:27:eb:4e:c9:c5|-76|NW2
+Sep  5, 2018 15:42:57.121988597 CEST|Raspberr_4e:c9:c5|b8:27:eb:4e:c9:c5|-73|
+Sep  5, 2018 15:42:57.140117017 CEST|Raspberr_4e:c9:c5|b8:27:eb:4e:c9:c5|-78|NW2
+Sep  5, 2018 15:42:58.251488999 CEST|IntelCor_5c:1a:cf|e4:a4:71:5c:1a:cf|-80|polimi-protected
+Sep  5, 2018 15:42:58.253966287 CEST|IntelCor_5c:1a:cf|e4:a4:71:5c:1a:cf|-79|
+Sep  5, 2018 15:42:59.352767572 CEST|8a:8e:7b:3c:94:aa|8a:8e:7b:3c:94:aa|-85|
+Sep  5, 2018 15:42:59.374025454 CEST|8a:8e:7b:3c:94:aa|8a:8e:7b:3c:94:aa|-89|
+Sep  5, 2018 15:43:00.183646078 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|VodafoneCasa
+Sep  5, 2018 15:43:00.186178553 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-54|Vodafone-StoreCarugate
+Sep  5, 2018 15:43:00.187315795 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|G3_1743
+Sep  5, 2018 15:43:00.188478168 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|Limonetwork 5 GHz
+Sep  5, 2018 15:43:00.190777269 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|szivutca_2
+Sep  5, 2018 15:43:00.191959168 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|Fasteweb-Casa
+Sep  5, 2018 15:43:00.195355444 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|FASTWEB-1-nYDGBB3X7wkN
+Sep  5, 2018 15:43:00.197760621 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-54|Pc-Gio
+Sep  5, 2018 15:43:00.198903947 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|Lola3
+Sep  5, 2018 15:43:00.200999273 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-59|TIM-78652545
+Sep  5, 2018 15:43:00.202088036 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|Vodafone-33789655
+Sep  5, 2018 15:43:00.204490088 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|PosteWiFi
+Sep  5, 2018 15:43:00.207993395 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|TNCAP40E275
+Sep  5, 2018 15:43:00.210334892 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-52|Vodafone Casa
+Sep  5, 2018 15:43:00.338269906 CEST|||-52|
+Sep  5, 2018 15:43:01.143505608 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|Limonetwork 5 GHz
+Sep  5, 2018 15:43:01.145890833 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|szivutca_2
+Sep  5, 2018 15:43:01.148175292 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|Fasteweb-Casa
+Sep  5, 2018 15:43:01.149374045 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|FASTWEB-1-nYDGBB3X7wkN
+Sep  5, 2018 15:43:01.151686768 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|Pc-Gio
+Sep  5, 2018 15:43:01.155258074 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|Lola3
+Sep  5, 2018 15:43:01.157611002 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|TIM-78652545
+Sep  5, 2018 15:43:01.160014434 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|Vodafone-33789655
+Sep  5, 2018 15:43:01.164734583 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|TNCAP40E275
+Sep  5, 2018 15:43:01.165963204 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|Vodafone Casa
+Sep  5, 2018 15:43:01.195631676 CEST|LiteonTe_3f:e3:7d|30:10:b3:3f:e3:7d|-61|
+Sep  5, 2018 15:43:01.199447509 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-64|TIM-78652545
+Sep  5, 2018 15:43:01.210186050 CEST|LiteonTe_3f:e3:7d|30:10:b3:3f:e3:7d|-59|
+Sep  5, 2018 15:43:01.226220337 CEST|LiteonTe_3f:e3:7d|30:10:b3:3f:e3:7d|-59|
+Sep  5, 2018 15:43:01.231781896 CEST|LiteonTe_3f:e3:7d|30:10:b3:3f:e3:7d|-59|
+Sep  5, 2018 15:43:04.716494655 CEST|Apple_39:97:4e|88:e9:fe:39:97:4e|-86|polimi-protected
+Sep  5, 2018 15:43:04.728297947 CEST|Apple_39:97:4e|88:e9:fe:39:97:4e|-89|polimi-protected
+Sep  5, 2018 15:43:08.011490935 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|G3_1743
+Sep  5, 2018 15:43:08.014416079 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|Limonetwork 5 GHz
+Sep  5, 2018 15:43:08.017326903 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-58|szivutca_2
+Sep  5, 2018 15:43:08.019555129 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|Fasteweb-Casa
+Sep  5, 2018 15:43:08.021885635 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|FASTWEB-1-nYDGBB3X7wkN
+Sep  5, 2018 15:43:08.023097247 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|Pc-Gio
+Sep  5, 2018 15:43:08.024061683 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-58|Lola3
+Sep  5, 2018 15:43:08.027455965 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|TIM-78652545
+Sep  5, 2018 15:43:08.027457775 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|Vodafone-33789655
+Sep  5, 2018 15:43:08.029754594 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|PosteWiFi
+Sep  5, 2018 15:43:08.032228002 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|TNCAP40E275
+Sep  5, 2018 15:43:08.032819493 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-59|Vodafone Casa
+Sep  5, 2018 15:43:08.062327344 CEST|HonHaiPr_e9:d7:67|14:2d:27:e9:d7:67|-63|
+Sep  5, 2018 15:43:08.077025112 CEST|HonHaiPr_e9:d7:67|14:2d:27:e9:d7:67|-65|
+Sep  5, 2018 15:43:08.097493477 CEST|HonHaiPr_e9:d7:67|14:2d:27:e9:d7:67|-66|
+Sep  5, 2018 15:43:08.106851035 CEST|HonHaiPr_e9:d7:67|14:2d:27:e9:d7:67|-67|
+Sep  5, 2018 15:43:08.982053632 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4||Vodafone-33789655
+Sep  5, 2018 15:43:09.524267286 CEST|AsustekC_27:46:f7|60:45:cb:27:46:f7|-73|
+Sep  5, 2018 15:43:10.278328159 CEST|AsustekC_03:ad:0c|d0:17:c2:03:ad:0c|-79|
+Sep  5, 2018 15:43:10.283929803 CEST|AsustekC_03:ad:0c|d0:17:c2:03:ad:0c|-81|
+Sep  5, 2018 15:43:10.303449240 CEST|AsustekC_03:ad:0c|d0:17:c2:03:ad:0c|-84|
+Sep  5, 2018 15:43:10.321683144 CEST|AsustekC_03:ad:0c|d0:17:c2:03:ad:0c|-85|
+Sep  5, 2018 15:43:10.333557445 CEST|AsustekC_03:ad:0c|d0:17:c2:03:ad:0c|-85|

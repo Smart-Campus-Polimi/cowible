@@ -1,0 +1,152 @@
+Sep  5, 2018 15:53:14.465660715 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-67|wlan_saltuaria
+Sep  5, 2018 15:53:14.506806464 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-65|wlan_saltuaria
+Sep  5, 2018 15:53:14.530932122 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-74|wlan_saltuaria
+Sep  5, 2018 15:53:15.227925316 CEST|Apple_c9:0d:55|f4:5c:89:c9:0d:55|-72|wlan_saltuaria
+Sep  5, 2018 15:53:15.353111631 CEST|Apple_c9:0d:55|f4:5c:89:c9:0d:55|-69|wlan_saltuaria
+Sep  5, 2018 15:53:16.122248297 CEST|AsustekC_27:46:f7|60:45:cb:27:46:f7|-72|
+Sep  5, 2018 15:53:16.133818010 CEST|AsustekC_27:46:f7|60:45:cb:27:46:f7|-71|
+Sep  5, 2018 15:53:18.007714863 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|
+Sep  5, 2018 15:53:19.194365719 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|
+Sep  5, 2018 15:53:19.539209717 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-67|wlan_saltuaria
+Sep  5, 2018 15:53:19.550079675 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-67|wlan_saltuaria
+Sep  5, 2018 15:53:21.699770721 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|Vodafone-StoreCarugate
+Sep  5, 2018 15:53:21.701978445 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|G3_1743
+Sep  5, 2018 15:53:21.707008895 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|Limonetwork 5 GHz
+Sep  5, 2018 15:53:21.709427760 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|szivutca_2
+Sep  5, 2018 15:53:21.710633985 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-58|Fasteweb-Casa
+Sep  5, 2018 15:53:21.715475109 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|FASTWEB-1-nYDGBB3X7wkN
+Sep  5, 2018 15:53:21.717926753 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-58|Pc-Gio
+Sep  5, 2018 15:53:21.719200392 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-59|Lola3
+Sep  5, 2018 15:53:21.720035265 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|TIM-78652545
+Sep  5, 2018 15:53:21.723855716 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-62|Vodafone-33789655
+Sep  5, 2018 15:53:21.725119802 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-62|PosteWiFi
+Sep  5, 2018 15:53:21.728154606 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|TNCAP40E275
+Sep  5, 2018 15:53:21.732565451 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-59|Vodafone Casa
+Sep  5, 2018 15:53:22.615192637 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-68|wlan_saltuaria
+Sep  5, 2018 15:53:22.623813149 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-69|wlan_saltuaria
+Sep  5, 2018 15:53:22.663633249 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-70|wlan_saltuaria
+Sep  5, 2018 15:53:22.673706840 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-70|wlan_saltuaria
+Sep  5, 2018 15:53:22.692965602 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-67|wlan_saltuaria
+Sep  5, 2018 15:53:23.009207389 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|VodafoneCasa
+Sep  5, 2018 15:53:23.012969037 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|Vodafone-StoreCarugate
+Sep  5, 2018 15:53:23.015434680 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|G3_1743
+Sep  5, 2018 15:53:23.018041175 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|Limonetwork 5 GHz
+Sep  5, 2018 15:53:23.020628026 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-60|szivutca_2
+Sep  5, 2018 15:53:23.023193051 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-54|Fasteweb-Casa
+Sep  5, 2018 15:53:23.025781850 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|Pc-Gio
+Sep  5, 2018 15:53:23.027004754 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-54|Lola3
+Sep  5, 2018 15:53:23.029015427 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-61|TIM-78652545
+Sep  5, 2018 15:53:23.030447925 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|Vodafone-33789655
+Sep  5, 2018 15:53:23.032916708 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|PosteWiFi
+Sep  5, 2018 15:53:23.964517022 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|VodafoneCasa
+Sep  5, 2018 15:53:23.967102324 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|Vodafone-StoreCarugate
+Sep  5, 2018 15:53:23.969261443 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|G3_1743
+Sep  5, 2018 15:53:23.970320252 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|Limonetwork 5 GHz
+Sep  5, 2018 15:53:23.972933719 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|szivutca_2
+Sep  5, 2018 15:53:23.975473800 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|Fasteweb-Casa
+Sep  5, 2018 15:53:23.979314861 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|Lola3
+Sep  5, 2018 15:53:23.983085485 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|TIM-78652545
+Sep  5, 2018 15:53:23.983741880 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-58|Vodafone-33789655
+Sep  5, 2018 15:53:23.986635227 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|PosteWiFi
+Sep  5, 2018 15:53:24.967662084 CEST|Apple_7c:ef:55|78:4f:43:7c:ef:55|-91|
+Sep  5, 2018 15:53:27.736708471 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-69|wlan_saltuaria
+Sep  5, 2018 15:53:27.746907117 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-69|wlan_saltuaria
+Sep  5, 2018 15:53:30.808358910 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-70|wlan_saltuaria
+Sep  5, 2018 15:53:30.817688349 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-68|wlan_saltuaria
+Sep  5, 2018 15:53:30.884580838 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-66|wlan_saltuaria
+Sep  5, 2018 15:53:31.066956869 CEST|Apple_70:cd:b9|38:ca:da:70:cd:b9|-93|polimi-protected
+Sep  5, 2018 15:53:32.332164125 CEST|AsustekC_1b:f0:b7|30:5a:3a:1b:f0:b7|-67|
+Sep  5, 2018 15:53:33.613428319 CEST|RivetNet_f1:c2:91|9c:b6:d0:f1:c2:91|-92|wlan_saltuaria-N
+Sep  5, 2018 15:53:33.622768748 CEST|RivetNet_f1:c2:91|9c:b6:d0:f1:c2:91|-89|wlan_saltuaria-N
+Sep  5, 2018 15:53:35.931136450 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-64|wlan_saltuaria
+Sep  5, 2018 15:53:35.940852272 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-62|wlan_saltuaria
+Sep  5, 2018 15:53:36.934650364 CEST|HonHaiPr_e3:83:0b|44:1c:a8:e3:83:0b|-89|
+Sep  5, 2018 15:53:37.364899883 CEST|LgElectr_86:03:c2|f8:a9:d0:86:03:c2|-93|
+Sep  5, 2018 15:53:38.589793840 CEST|Apple_39:97:4e|88:e9:fe:39:97:4e|-89|polimi-protected
+Sep  5, 2018 15:53:38.683749949 CEST|SamsungE_3e:8d:f0|2c:0e:3d:3e:8d:f0|-83|eduroam
+Sep  5, 2018 15:53:39.008042898 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-68|wlan_saltuaria
+Sep  5, 2018 15:53:39.021817571 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-68|wlan_saltuaria
+Sep  5, 2018 15:53:39.065690324 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-68|wlan_saltuaria
+Sep  5, 2018 15:53:39.081679094 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-66|wlan_saltuaria
+Sep  5, 2018 15:53:39.106530805 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-75|wlan_saltuaria
+Sep  5, 2018 15:53:39.311156438 CEST|HonHaiPr_e3:83:0b|44:1c:a8:e3:83:0b|-90|
+Sep  5, 2018 15:53:44.128732496 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-67|wlan_saltuaria
+Sep  5, 2018 15:53:44.136105774 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-68|wlan_saltuaria
+Sep  5, 2018 15:53:44.405495215 CEST|AsustekC_27:46:f7|60:45:cb:27:46:f7|-71|
+Sep  5, 2018 15:53:44.415604806 CEST|AsustekC_27:46:f7|60:45:cb:27:46:f7|-72|
+Sep  5, 2018 15:53:44.435145109 CEST|AsustekC_27:46:f7|60:45:cb:27:46:f7|-71|
+Sep  5, 2018 15:53:44.465805433 CEST|AsustekC_27:46:f7|60:45:cb:27:46:f7|-72|
+Sep  5, 2018 15:53:44.476991414 CEST|AsustekC_27:46:f7|60:45:cb:27:46:f7|-73|
+Sep  5, 2018 15:53:44.702083233 CEST|Azurewav_25:42:b7|74:c6:3b:25:42:b7|-76|
+Sep  5, 2018 15:53:44.730334407 CEST|Azurewav_25:42:b7|74:c6:3b:25:42:b7|-74|
+Sep  5, 2018 15:53:47.199778567 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-68|wlan_saltuaria
+Sep  5, 2018 15:53:47.211444563 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-68|wlan_saltuaria
+Sep  5, 2018 15:53:47.718320541 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-73|WiFi Hotspot 1657
+Sep  5, 2018 15:53:47.719209074 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-71|Pinterest Guest
+Sep  5, 2018 15:53:47.721903919 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-71|
+Sep  5, 2018 15:53:47.731563775 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-72|WiFi Hotspot 1657
+Sep  5, 2018 15:53:47.738550627 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-72|Pinterest Guest
+Sep  5, 2018 15:53:47.740894730 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-72|
+Sep  5, 2018 15:53:47.748060926 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-71|WiFi Hotspot 1657
+Sep  5, 2018 15:53:47.750539513 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-72|Pinterest Guest
+Sep  5, 2018 15:53:47.752603906 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-71|
+Sep  5, 2018 15:53:47.758362891 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-75|WiFi Hotspot 1657
+Sep  5, 2018 15:53:47.776010205 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-73|WiFi Hotspot 1657
+Sep  5, 2018 15:53:47.790205119 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-73|WiFi Hotspot 1657
+Sep  5, 2018 15:53:47.795244439 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-71|
+Sep  5, 2018 15:53:47.805192938 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-72|WiFi Hotspot 1657
+Sep  5, 2018 15:53:47.807687507 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-72|Pinterest Guest
+Sep  5, 2018 15:53:47.814886882 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-73|WiFi Hotspot 1657
+Sep  5, 2018 15:53:47.818738578 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-73|Pinterest Guest
+Sep  5, 2018 15:53:47.822120289 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-75|
+Sep  5, 2018 15:53:50.370551318 CEST|8e:47:76:b0:5c:59|8e:47:76:b0:5c:59|-92|
+Sep  5, 2018 15:53:52.328091818 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-68|wlan_saltuaria
+Sep  5, 2018 15:53:52.335325956 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-69|wlan_saltuaria
+Sep  5, 2018 15:53:55.324708235 CEST|0e:0a:c9:29:5e:a8|0e:0a:c9:29:5e:a8|-79|
+Sep  5, 2018 15:53:55.395004717 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-67|wlan_saltuaria
+Sep  5, 2018 15:53:55.406296875 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-67|wlan_saltuaria
+Sep  5, 2018 15:53:55.447863764 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-67|wlan_saltuaria
+Sep  5, 2018 15:53:55.453330098 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-70|wlan_saltuaria
+Sep  5, 2018 15:53:55.474687768 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-65|wlan_saltuaria
+Sep  5, 2018 15:53:55.487755070 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-63|wlan_saltuaria
+Sep  5, 2018 15:53:55.809983014 CEST|Apple_22:77:5d|64:70:33:22:77:5d|-74|
+Sep  5, 2018 15:53:59.828433677 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|Vodafone-StoreCarugate
+Sep  5, 2018 15:53:59.831188127 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|G3_1743
+Sep  5, 2018 15:53:59.835507451 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|Limonetwork 5 GHz
+Sep  5, 2018 15:53:59.836792047 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|szivutca_2
+Sep  5, 2018 15:53:59.839106257 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|Fasteweb-Casa
+Sep  5, 2018 15:53:59.842936418 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|FASTWEB-1-nYDGBB3X7wkN
+Sep  5, 2018 15:53:59.845542355 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|Pc-Gio
+Sep  5, 2018 15:53:59.846781943 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|Lola3
+Sep  5, 2018 15:53:59.848093039 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|TIM-78652545
+Sep  5, 2018 15:53:59.850651799 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|Vodafone-33789655
+Sep  5, 2018 15:53:59.851901829 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|PosteWiFi
+Sep  5, 2018 15:53:59.854015081 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-54|TNCAP40E275
+Sep  5, 2018 15:53:59.854016867 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|Vodafone Casa
+Sep  5, 2018 15:54:00.518971568 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-68|wlan_saltuaria
+Sep  5, 2018 15:54:00.546138588 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-67|wlan_saltuaria
+Sep  5, 2018 15:54:00.790229884 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|Limonetwork 5 GHz
+Sep  5, 2018 15:54:00.791657588 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|szivutca_2
+Sep  5, 2018 15:54:00.792960230 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-60|Fasteweb-Casa
+Sep  5, 2018 15:54:00.798076714 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-54|Lola3
+Sep  5, 2018 15:54:00.803361949 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-58|PosteWiFi
+Sep  5, 2018 15:54:01.028065110 CEST|AsustekC_03:ad:0c|d0:17:c2:03:ad:0c|-85|
+Sep  5, 2018 15:54:02.452457525 CEST|Apple_70:cd:b9|38:ca:da:70:cd:b9|-93|polimi-protected
+Sep  5, 2018 15:54:03.589360030 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-69|wlan_saltuaria
+Sep  5, 2018 15:54:03.639324988 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-68|wlan_saltuaria
+Sep  5, 2018 15:54:03.648580626 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-70|wlan_saltuaria
+Sep  5, 2018 15:54:03.670839788 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-66|wlan_saltuaria
+Sep  5, 2018 15:54:03.686675672 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-66|wlan_saltuaria
+Sep  5, 2018 15:54:04.393239309 CEST|MurataMa_80:ea:9f|fc:c2:de:80:ea:9f|-84|asus
+Sep  5, 2018 15:54:04.404785617 CEST|AsustekC_27:46:f7|60:45:cb:27:46:f7|-73|
+Sep  5, 2018 15:54:04.413923689 CEST|AsustekC_27:46:f7|60:45:cb:27:46:f7|-69|
+Sep  5, 2018 15:54:04.433571110 CEST|MurataMa_80:ea:9f|fc:c2:de:80:ea:9f|-84|asus
+Sep  5, 2018 15:54:04.455769626 CEST|AsustekC_27:46:f7|60:45:cb:27:46:f7|-72|
+Sep  5, 2018 15:54:04.467845223 CEST|AsustekC_27:46:f7|60:45:cb:27:46:f7|-79|
+Sep  5, 2018 15:54:04.474436710 CEST|AsustekC_27:46:f7|60:45:cb:27:46:f7|-79|
+Sep  5, 2018 15:54:05.567966751 CEST|Apple_39:97:4e|88:e9:fe:39:97:4e|-90|polimi-protected
+Sep  5, 2018 15:54:08.712191844 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-63|wlan_saltuaria
+Sep  5, 2018 15:54:08.723386583 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-62|wlan_saltuaria
+Sep  5, 2018 15:54:09.357397595 CEST|a2:1b:cc:1b:08:aa|a2:1b:cc:1b:08:aa|-74|
+Sep  5, 2018 15:54:11.786482208 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-68|wlan_saltuaria
+Sep  5, 2018 15:54:11.803467884 CEST|Apple_ec:56:87|40:9c:28:ec:56:87|-68|wlan_saltuaria

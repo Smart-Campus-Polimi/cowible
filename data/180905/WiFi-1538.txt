@@ -1,0 +1,96 @@
+Sep  5, 2018 15:38:10.554096352 CEST|79:b1:4c:8e:44:ae|79:b1:4c:8e:44:ae|-69|
+Sep  5, 2018 15:38:10.950462867 CEST|HuaweiTe_07:88:9f|a8:c8:3a:07:88:9f|-93|eduroam
+Sep  5, 2018 15:38:11.535894558 CEST|Apple_7c:ef:55|78:4f:43:7c:ef:55|-86|
+Sep  5, 2018 15:38:11.553975248 CEST|Apple_7c:ef:55|78:4f:43:7c:ef:55|-89|
+Sep  5, 2018 15:38:11.826645785 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-84|szivutca_2
+Sep  5, 2018 15:38:11.836076438 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4||Pc-Gio
+Sep  5, 2018 15:38:12.765666942 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-58|VodafoneCasa
+Sep  5, 2018 15:38:12.769222941 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-58|G3_1743
+Sep  5, 2018 15:38:12.779507367 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-59|Pc-Gio
+Sep  5, 2018 15:38:12.781415326 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-69|Lola3
+Sep  5, 2018 15:38:12.783645696 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-59|TIM-78652545
+Sep  5, 2018 15:38:12.786372568 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-60|Vodafone-33789655
+Sep  5, 2018 15:38:12.788754983 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-61|PosteWiFi
+Sep  5, 2018 15:38:12.791171257 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-59|TNCAP40E275
+Sep  5, 2018 15:38:12.793606186 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-59|Vodafone Casa
+Sep  5, 2018 15:38:13.669021374 CEST|AsustekC_03:ad:0c|d0:17:c2:03:ad:0c|-91|
+Sep  5, 2018 15:38:13.709479612 CEST|||-95|
+Sep  5, 2018 15:38:14.534396813 CEST|Apple_ca:11:0d|ac:e4:b5:ca:11:0d|-91|polimi-protected
+Sep  5, 2018 15:38:17.455448126 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-66|WiFi Hotspot 1657
+Sep  5, 2018 15:38:17.457894140 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-69|Pinterest Guest
+Sep  5, 2018 15:38:17.461926580 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-69|
+Sep  5, 2018 15:38:17.474015175 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-69|Pinterest Guest
+Sep  5, 2018 15:38:17.475713434 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-68|
+Sep  5, 2018 15:38:17.480700934 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-69|WiFi Hotspot 1657
+Sep  5, 2018 15:38:17.491323022 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-69|Pinterest Guest
+Sep  5, 2018 15:38:17.494686426 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-68|
+Sep  5, 2018 15:38:17.494689955 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-70|WiFi Hotspot 1657
+Sep  5, 2018 15:38:17.499998465 CEST|Motorola_11:cf:29|84:10:0d:11:cf:29|-69|Pinterest Guest
+Sep  5, 2018 15:38:20.274941300 CEST|HonHaiPr_0a:6f:af|a4:17:31:0a:6f:af|-53|
+Sep  5, 2018 15:38:20.431855351 CEST|69:27:15:87:66:1b|69:27:15:87:66:1b|-54|
+Sep  5, 2018 15:38:20.792387921 CEST|Google_a9:5f:d0|da:a1:19:a9:5f:d0|-73|
+Sep  5, 2018 15:38:20.814642181 CEST|Google_a9:5f:d0|da:a1:19:a9:5f:d0|-70|
+Sep  5, 2018 15:38:20.940466656 CEST|Google_a9:5f:d0|da:a1:19:a9:5f:d0|-70|
+Sep  5, 2018 15:38:21.934053016 CEST|be:3b:27:87:26:95|be:3b:27:87:26:95|-80|
+Sep  5, 2018 15:38:22.000410588 CEST|be:3b:27:87:26:95|be:3b:27:87:26:95|-81|
+Sep  5, 2018 15:38:22.045264918 CEST|be:3b:27:87:26:95|be:3b:27:87:26:95|-82|
+Sep  5, 2018 15:38:22.615367520 CEST|Apple_1b:ea:53|8c:85:90:1b:ea:53|-81|wlan_saltuaria
+Sep  5, 2018 15:38:22.727830106 CEST|Apple_1b:ea:53|8c:85:90:1b:ea:53|-81|wlan_saltuaria
+Sep  5, 2018 15:38:26.955535374 CEST|3a:cc:35:e7:2d:a6|3a:cc:35:e7:2d:a6|-86|Apple Demo
+Sep  5, 2018 15:38:27.020086449 CEST|HuaweiTe_33:54:de|a0:8d:16:33:54:de|-76|
+Sep  5, 2018 15:38:28.894625192 CEST|HuaweiTe_33:54:de|a0:8d:16:33:54:de|-72|
+Sep  5, 2018 15:38:30.001846701 CEST|HuaweiTe_33:54:de|a0:8d:16:33:54:de|-69|
+Sep  5, 2018 15:38:30.023751907 CEST|HuaweiTe_33:54:de|a0:8d:16:33:54:de|-69|
+Sep  5, 2018 15:38:30.555401838 CEST|0a:e0:d7:7f:f6:8f|0a:e0:d7:7f:f6:8f|-91|
+Sep  5, 2018 15:38:36.637018859 CEST|AsustekC_1b:f0:b7|30:5a:3a:1b:f0:b7|-69|
+Sep  5, 2018 15:38:36.665194226 CEST|AsustekC_1b:f0:b7|30:5a:3a:1b:f0:b7|-71|
+Sep  5, 2018 15:38:36.981489881 CEST|ce:3a:ea:63:06:3e|ce:3a:ea:63:06:3e|-93|
+Sep  5, 2018 15:38:37.315454326 CEST|HuaweiTe_33:54:de|a0:8d:16:33:54:de|-77|
+Sep  5, 2018 15:38:37.338279944 CEST|HuaweiTe_33:54:de|a0:8d:16:33:54:de|-79|
+Sep  5, 2018 15:38:37.381696739 CEST|HuaweiTe_33:54:de|a0:8d:16:33:54:de|-72|
+Sep  5, 2018 15:38:41.504859790 CEST|HonHaiPr_99:82:ed|d8:5d:e2:99:82:ed|-52|
+Sep  5, 2018 15:38:41.535326374 CEST|HonHaiPr_99:82:ed|d8:5d:e2:99:82:ed|-52|
+Sep  5, 2018 15:38:41.544457860 CEST|HonHaiPr_99:82:ed|d8:5d:e2:99:82:ed|-58|
+Sep  5, 2018 15:38:41.559874496 CEST|HonHaiPr_99:82:ed|d8:5d:e2:99:82:ed|-61|
+Sep  5, 2018 15:38:44.302570900 CEST|Azurewav_25:42:b7|74:c6:3b:25:42:b7|-78|
+Sep  5, 2018 15:38:44.334929070 CEST|Azurewav_25:42:b7|74:c6:3b:25:42:b7|-80|
+Sep  5, 2018 15:38:45.021068924 CEST|Azurewav_bf:8b:f9|74:c6:3b:bf:8b:f9|-75|
+Sep  5, 2018 15:38:47.831214570 CEST|Raspberr_4e:c9:c5|b8:27:eb:4e:c9:c5|-77|
+Sep  5, 2018 15:38:47.852773406 CEST|Raspberr_4e:c9:c5|b8:27:eb:4e:c9:c5|-80|
+Sep  5, 2018 15:38:48.244302526 CEST|ce:3a:ea:63:06:3e|ce:3a:ea:63:06:3e|-90|
+Sep  5, 2018 15:38:49.054845615 CEST|Apple_22:77:5d|64:70:33:22:77:5d|-80|
+Sep  5, 2018 15:38:49.067853476 CEST|Apple_22:77:5d|64:70:33:22:77:5d|-80|
+Sep  5, 2018 15:38:51.319090245 CEST|Apple_39:97:4e|88:e9:fe:39:97:4e|-86|polimi-protected
+Sep  5, 2018 15:38:51.327387363 CEST|Apple_39:97:4e|88:e9:fe:39:97:4e|-87|polimi-protected
+Sep  5, 2018 15:38:51.907151733 CEST|Apple_6e:de:88|78:4f:43:6e:de:88|-92|polimi
+Sep  5, 2018 15:38:55.928029234 CEST|b2:22:7a:1c:5a:8a|b2:22:7a:1c:5a:8a|-80|
+Sep  5, 2018 15:38:57.080017630 CEST|IntelCor_c5:9a:d1|84:ef:18:c5:9a:d1|-84|
+Sep  5, 2018 15:38:58.936753371 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|VodafoneCasa
+Sep  5, 2018 15:38:58.938982035 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-58|Vodafone-StoreCarugate
+Sep  5, 2018 15:38:58.941317427 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|G3_1743
+Sep  5, 2018 15:38:58.942536977 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|Limonetwork 5 GHz
+Sep  5, 2018 15:38:58.945793247 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|szivutca_2
+Sep  5, 2018 15:38:58.948121764 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|Fasteweb-Casa
+Sep  5, 2018 15:38:58.950437274 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-58|FASTWEB-1-nYDGBB3X7wkN
+Sep  5, 2018 15:38:58.954325633 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-55|Pc-Gio
+Sep  5, 2018 15:38:58.956673230 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|TIM-78652545
+Sep  5, 2018 15:38:58.959105757 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|Vodafone-33789655
+Sep  5, 2018 15:38:58.961469822 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-58|PosteWiFi
+Sep  5, 2018 15:38:59.892332233 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-57|Fasteweb-Casa
+Sep  5, 2018 15:38:59.894793476 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|FASTWEB-1-nYDGBB3X7wkN
+Sep  5, 2018 15:38:59.897057639 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-60|Pc-Gio
+Sep  5, 2018 15:38:59.901637212 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|TIM-78652545
+Sep  5, 2018 15:38:59.905202802 CEST|Microsof_d3:6c:f4|38:f2:3e:d3:6c:f4|-56|Vodafone-33789655
+Sep  5, 2018 15:39:00.441832717 CEST|SamsungE_75:af:f8|4c:dd:31:75:af:f8|-88|
+Sep  5, 2018 15:39:00.697222499 CEST|SamsungE_ad:f6:69|30:07:4d:ad:f6:69|-80|
+Sep  5, 2018 15:39:00.730876118 CEST|SamsungE_ad:f6:69|30:07:4d:ad:f6:69|-76|
+Sep  5, 2018 15:39:01.088094342 CEST|LiteonTe_3f:e3:7d|30:10:b3:3f:e3:7d|-69|
+Sep  5, 2018 15:39:01.117592763 CEST|LiteonTe_3f:e3:7d|30:10:b3:3f:e3:7d|-65|
+Sep  5, 2018 15:39:01.124970787 CEST|LiteonTe_3f:e3:7d|30:10:b3:3f:e3:7d|-65|
+Sep  5, 2018 15:39:03.043787614 CEST|e2:92:ba:cc:f6:eb|e2:92:ba:cc:f6:eb|-87|
+Sep  5, 2018 15:39:03.069183594 CEST|e2:92:ba:cc:f6:eb|e2:92:ba:cc:f6:eb|-85|
+Sep  5, 2018 15:39:03.402203449 CEST|Google_fc:6a:0d|da:a1:19:fc:6a:0d|-69|
+Sep  5, 2018 15:39:03.504925597 CEST|Google_fc:6a:0d|da:a1:19:fc:6a:0d|-71|
+Sep  5, 2018 15:39:07.929637193 CEST|2a:22:f9:c9:09:ec|2a:22:f9:c9:09:ec|-77|
+Sep  5, 2018 15:39:07.929643947 CEST|2a:22:f9:c9:09:ec|2a:22:f9:c9:09:ec|-77|
+Sep  5, 2018 15:39:07.929645867 CEST|2a:22:f9:c9:09:ec|2a:22:f9:c9:09:ec|-77|

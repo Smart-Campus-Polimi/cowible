@@ -8,13 +8,21 @@ import subprocess
 import threading
 import Queue
 import csv
+import sched, time
 import pprint as pp
 
 #my imports
 import WifiHandler
 
+'''
+	CONSTANTS
+'''
 BUF_SIZE = 200
+LIFE = 2
 
+'''
+	FUNCTIONS
+'''
 def signal_handler(signal, frame):
 	print "Exit!"
 
@@ -22,6 +30,21 @@ def signal_handler(signal, frame):
 
 	
 	sys.exit(0)
+
+
+def decrease_life(my_client_list):
+	print "decrease users' life"
+	for key, val in client_list.items():
+		val["life"] -= 1
+
+		if val["life"] < 0:
+			try:
+				my_client_list.pop(key)
+			except KeyError as e:
+				print e
+
+
+	return my_client_list
 
 
 def create_csv():
@@ -71,11 +94,12 @@ def load_dict(probe_list, my_client_list):
 		#create the mac field
 		if not my_client_list.has_key(mac_addr):
 				my_client_list[mac_addr] = \
-					{"last_ts": ts[13:-15], "times_seen": 1, "last_rssi": rssi, "vendor": mac_resolved, "ssid": [ssid]} 
+					{"last_ts": ts[13:-15], "times_seen": 1, "last_rssi": rssi, "vendor": mac_resolved, "ssid": [ssid], "life":LIFE} 
 		else:
 			my_client_list[mac_addr]["times_seen"] += 1 
 			my_client_list[mac_addr]["last_rssi"] = rssi
 			my_client_list[mac_addr]["last_ts"] = ts[13:-15]
+			my_client_list[mac_addr]["life"] = LIFE
 			#the ssid field is skippable
 			if ssid not in my_client_list[mac_addr]["ssid"]:
 				my_client_list[mac_addr]["ssid"].append(ssid)
@@ -111,7 +135,9 @@ if __name__ == "__main__":
 			print new_wifi_path
 			client_list = parse_file(new_wifi_path, client_list)
 
-			#pp.pprint(client_list)
+			pp.pprint(client_list)
 
 			total_wifi, random_wifi, valid_wifi = count_users(client_list)
 			update_csv(new_wifi_path[17:-5], valid_wifi, random_wifi)
+
+			client_list = decrease_life(client_list)

@@ -135,7 +135,7 @@ if __name__ == "__main__":
 			print new_wifi_path
 			client_list = parse_file(new_wifi_path, client_list)
 
-			pp.pprint(client_list)
+			#pp.pprint(client_list)
 
 			total_wifi, random_wifi, valid_wifi = count_users(client_list)
 			update_csv(new_wifi_path[17:-5], valid_wifi, random_wifi)

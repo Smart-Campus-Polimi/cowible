@@ -13,4 +13,7 @@ echo The device is now $iw_dev
 data_day=$(date +"%y%m%d")
 path="data/$data_day/"
 timeout=60
-mkdir -p $path
+#mkdir -p $path
+
+#### BT and BLE
+hciconfig hci0 up

@@ -1,6 +1,5 @@
 import csv
 
-
 def decrease_life(my_client_list):
 	print("decrease users' life")
 	for key, val in my_client_list.items():

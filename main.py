@@ -13,13 +13,12 @@ from time import strftime,localtime
 import WifiHandler
 import BleHandler
 import functions as f
+import constants as c
 
 
 '''
 	CONSTANTS
 '''
-BUF_SIZE = 200
-LIFE = 2
 thread_list = []
 
 '''
@@ -41,8 +40,8 @@ if __name__ == "__main__":
 	
 	f.create_csv()
 
-	q_wifi_probe = Queue.Queue(BUF_SIZE)
-	q_ble_advertising = Queue.Queue(BUF_SIZE)
+	q_wifi_probe = Queue.Queue(c.BUF_SIZE)
+	q_ble_advertising = Queue.Queue(c.BUF_SIZE)
 
 	t_wifi = WifiHandler.WifiThread(q_wifi_probe)
 	t_wifi.start() 

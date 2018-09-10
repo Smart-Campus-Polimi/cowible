@@ -3,11 +3,16 @@
 import threading
 import subprocess
 from time import strftime, localtime
+
+#my imports
 import functions as f
+import constants as c
 
 
-LIFE = 7
 
+'''
+	FUNCTIONS
+'''
 def parse_file(file_path, my_client_list):
 	#print "loading from ", file_path
 	lines = [line.rstrip('\n') for line in open(file_path[:-1])] #load the file
@@ -39,12 +44,12 @@ def load_dict(probe_list, my_client_list):
 		#create the mac field
 		if not my_client_list.has_key(mac_addr):
 				my_client_list[mac_addr] = \
-					{"last_ts": ts[13:-15], "times_seen": 1, "last_rssi": rssi, "vendor": mac_resolved, "ssid": [ssid], "life":LIFE} 
+					{"last_ts": ts[13:-15], "times_seen": 1, "last_rssi": rssi, "vendor": mac_resolved, "ssid": [ssid], "life":c.LIFE_WIFI} 
 		else:
 			my_client_list[mac_addr]["times_seen"] += 1 
 			my_client_list[mac_addr]["last_rssi"] = rssi
 			my_client_list[mac_addr]["last_ts"] = ts[13:-15]
-			my_client_list[mac_addr]["life"] = LIFE
+			my_client_list[mac_addr]["life"] = c.LIFE_WIFI
 			#the ssid field is skippable
 			if ssid not in my_client_list[mac_addr]["ssid"]:
 				my_client_list[mac_addr]["ssid"].append(ssid)
@@ -63,7 +68,7 @@ class WifiThread(threading.Thread):
 	def run(self):
 		print "asd"
 		while self.is_running:
-			self.wifi_path = subprocess.check_output(['./tools/tshark.sh', strftime("%y%m%d", localtime())])
+			self.wifi_path = subprocess.check_output(['./tools/tshark.sh', strftime("%y%m%d", localtime()), str(c.TIMEOUT)])
 			print self.wifi_path
 			self.client_list = parse_file(self.wifi_path, self.client_list)
 			self.queue.put(self.client_list)

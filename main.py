@@ -12,6 +12,7 @@ from time import strftime,localtime
 #my imports
 import WifiHandler
 import BleHandler
+import BtClassicHandler
 import functions as f
 import constants as c
 
@@ -42,21 +43,28 @@ if __name__ == "__main__":
 
 	q_wifi_probe = Queue.Queue(c.BUF_SIZE)
 	q_ble_advertising = Queue.Queue(c.BUF_SIZE)
+	q_bt_inquiry = Queue.Queue(c.BUF_SIZE)
 
 	t_wifi = WifiHandler.WifiThread(q_wifi_probe)
-	t_wifi.start() 
+	#t_wifi.start() 
 	thread_list.append(t_wifi)
 
 	t_ble = BleHandler.BleThread(q_ble_advertising)
-	t_ble.start()
+	#t_ble.start()
 	thread_list.append(t_ble)
+
+	t_bt = BtClassicHandler.BtClassicThread(q_bt_inquiry)
+	t_bt.start()
+	thread_list.append(t_bt)
 
 	client_list = {}
 	ble_list = {}
+	bt_list = {}
 
 
 	wifi_flag = False
 	ble_flag = False
+	bt_flag = False
 
 	while True:
 		if not q_wifi_probe.empty():
@@ -68,12 +76,18 @@ if __name__ == "__main__":
 			ble_list = q_ble_advertising.get()
 			ble_flag = True
 
-		if(wifi_flag and ble_flag):
-			random_wifi, valid_wifi, ble_devices = f.count_users(client_list, ble_list)
+		if not q_bt_inquiry.empty():
+			bt_list = q_bt_inquiry.get()
+			bt_flag = True
+
+		if(wifi_flag and ble_flag and bt_flag):
+			random_wifi, valid_wifi, ble_devices, bt_devices = f.count_users(client_list, ble_list, bt_list)
 			print "Random users: ", random_wifi
 			print "Valid users: ", valid_wifi
 			print "Ble devices: ", ble_devices
-			f.update_csv(strftime("%H:%M:%S", localtime()), valid_wifi, random_wifi, ble_devices)
+			print "Classic BT devices: ", bt_devices
+			f.update_csv(strftime("%H:%M:%S", localtime()), valid_wifi, random_wifi, ble_devices, bt_devices)
 
 			wifi_flag = False
 			ble_flag = False
+			bt_flag = False

@@ -1,9 +1,21 @@
 import csv
+import copy
 import os, errno #for creating direcotry
 from time import strftime, localtime
 
 import constants as c
 
+
+def split_random(wifi_users):
+	rand = {}
+	non_rand = {}
+	for key, val in wifi_users.items():
+		if val['vendor'] == 'unknown':
+			rand[key] = val
+		else:
+			non_rand[key] = val
+
+	return non_rand, rand
 
 def decrease_life(my_client_list):
 	print("decrease users' life")
@@ -103,6 +115,8 @@ def load_bt(line_to_parse, my_list):
 
 
 #CSV FUNCTIONS
+csv_list = ['wifi_non-random', 'wifi_random', 'ble', 'classic_bt']
+
 
 def create_directory(directory_path):
 	try:
@@ -112,7 +126,6 @@ def create_directory(directory_path):
 			raise
 
 def create_csv():
-	csv_list = ['wifi_non-random', 'wifi_random', 'ble', 'classic_bt']
 	my_path = 'goldmine/'+strftime("%y%m%d", localtime())+'/'+strftime("%H%M%S", localtime())+'/'
 
 	create_directory(my_path)
@@ -126,7 +139,9 @@ def create_csv():
 		with open(my_path+file+'.csv', 'w') as csvfile:
 			filewriter = csv.writer(csvfile, delimiter=',',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
-			filewriter.writerow([i for i in range(-100, -30, 2)])
+			header = [i for i in range(c.CSV_LOWER, c.CSV_UPPER, c.CSV_STEP)]
+			header.insert(0,'ts')
+			filewriter.writerow(header)
 
 	return my_path
 
@@ -140,24 +155,34 @@ def update_csv(my_path, ts, valid_wifi, random_wifi, ble, bt):
 
 
 
-def final_csv(my_path, ts, wifi_dict, ble_dict, bt_dict):
+def final_csv(my_path, ts, dictionaries):
 	rssi_list = []
 	empty_rssi = []
-	rssi_list.append([i for i in range(-100, -30, 2)])
-	empty_rssi.append([0 for i in range(-100, -30, 2)])
+	rssi_list.append([i for i in range(c.CSV_LOWER, c.CSV_UPPER, c.CSV_STEP)])
+	for i in range (0,len(dictionaries)):
+		empty_rssi.append([0 for i in range(c.CSV_LOWER, c.CSV_UPPER, c.CSV_STEP)])
 	rssi_list = rssi_list[0]
-	empty_rssi = empty_rssi[0]
-	print rssi_list
-	print empty_rssi
+	#empty_rssi = empty_rssi[0]
 
+	for main_index, single_dict in enumerate(dictionaries):
+		for key, val in single_dict.items():
+			rssi = int(val['last_rssi'])
+			if rssi not in rssi_list:
+				if rssi > c.CSV_LOWER:
+					rssi = c.CSV_LOWER+1
+				elif rssi < c.CSV_UPPER:
+					rssi = c.CSV_UPPER
+				else:
+					rssi += 1
 
-	for key, val in bt_dict.items():
-		rssi = int(val['last_rssi'])
-		if rssi not in rssi_list:
-			rssi += 1
-
-		#check if the rssi is less than the index, for each index of the rssi list. if yes increase it, else the val remain the same
-		empty_rssi = [item+1 if index >= rssi_list.index(rssi) else item for index, item in enumerate(empty_rssi)] 
+			#check if the rssi is less than the index, for each index of the rssi list. if yes increase it, else the val remains the same
+			empty_rssi[main_index] = [item+1 if index >= rssi_list.index(rssi) else item for index, item in enumerate(empty_rssi[main_index])] 
 		
-	print empty_rssi
-		
+	for csv_name, vals in zip(csv_list, empty_rssi):
+		payload = copy.deepcopy(vals)
+		payload.insert(0,ts)
+		with open(my_path+csv_name+'.csv', 'a') as csvfile:
+			filewriter = csv.writer(csvfile, delimiter=',',
+				quotechar='|', quoting=csv.QUOTE_MINIMAL)
+			filewriter.writerow(payload)
+

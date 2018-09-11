@@ -86,7 +86,12 @@ if __name__ == "__main__":
 			print "Valid users: ", valid_wifi
 			print "Ble devices: ", ble_devices
 			print "Classic BT devices: ", bt_devices
-			f.update_csv(path, strftime("%H:%M:%S", localtime()), valid_wifi, random_wifi, ble_devices, bt_devices)
+			
+			non_random_wifi, random_wifi = f.split_random(client_list)
+			timestamp = strftime("%H:%M:%S", localtime())
+
+			f.final_csv(path, timestamp, [non_random_wifi, random_wifi, ble_list, bt_list])
+			f.update_csv(path, timestamp, valid_wifi, random_wifi, ble_devices, bt_devices)
 
 			wifi_flag = False
 			ble_flag = False

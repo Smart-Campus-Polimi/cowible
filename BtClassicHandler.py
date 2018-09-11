@@ -2,6 +2,7 @@
 
 import threading
 import subprocess
+from time import strftime, localtime
 from bluetooth import *
 
 #my imports
@@ -17,9 +18,9 @@ class BtClassicThread(threading.Thread):
 		self.is_running = True
 		self.bt_list = {}
 		#open hcidump > txt
-		self.file_path = "test.txt" #change it
+		self.file_path = "data/"+strftime("%y%m%d", localtime())+"/BT_dump.txt" 
 		with open(self.file_path, "w") as dump_file:
-			subprocess.Popen(['hcidump', '-i', 'hci0', 'hci'], shell=False, stdout = dump_file)
+			subprocess.Popen(['hcidump', '-i', c.HCI_INTERFACE, 'hci'], shell=False, stdout = dump_file)
 
 
 

@@ -39,18 +39,18 @@ if __name__ == "__main__":
 	signal.signal(signal.SIGINT, signal_handler)
 	print "COWIBLI v1.0"
 	
-	f.create_csv()
+	path = f.create_csv()
 
 	q_wifi_probe = Queue.Queue(c.BUF_SIZE)
 	q_ble_advertising = Queue.Queue(c.BUF_SIZE)
 	q_bt_inquiry = Queue.Queue(c.BUF_SIZE)
 
 	t_wifi = WifiHandler.WifiThread(q_wifi_probe)
-	#t_wifi.start() 
+	t_wifi.start() 
 	thread_list.append(t_wifi)
 
 	t_ble = BleHandler.BleThread(q_ble_advertising)
-	#t_ble.start()
+	t_ble.start()
 	thread_list.append(t_ble)
 
 	t_bt = BtClassicHandler.BtClassicThread(q_bt_inquiry)
@@ -86,7 +86,7 @@ if __name__ == "__main__":
 			print "Valid users: ", valid_wifi
 			print "Ble devices: ", ble_devices
 			print "Classic BT devices: ", bt_devices
-			f.update_csv(strftime("%H:%M:%S", localtime()), valid_wifi, random_wifi, ble_devices, bt_devices)
+			f.update_csv(path, strftime("%H:%M:%S", localtime()), valid_wifi, random_wifi, ble_devices, bt_devices)
 
 			wifi_flag = False
 			ble_flag = False

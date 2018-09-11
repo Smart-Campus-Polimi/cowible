@@ -1,4 +1,5 @@
 import csv
+import os, errno #for creating direcotry
 from time import strftime, localtime
 
 import constants as c
@@ -18,23 +19,11 @@ def decrease_life(my_client_list):
 
 	return my_client_list
 
-def count_users(my_client_list, my_ble_list):
+def count_users(my_client_list, my_ble_list, my_bt_list):
 	random_users = sum(1 for client in my_client_list.itervalues() if client["vendor"] == "unknown") #sum number of random users
 	valid_users = len(my_client_list.keys()) - random_users
 
 	return random_users, valid_users, len(my_ble_list.keys()), len(my_bt_list.keys())
-
-def create_csv():
-	with open('recap.csv', 'w') as csvfile:
-		filewriter = csv.writer(csvfile, delimiter=',',
-                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
-		filewriter.writerow(['timestamp','valid_wifi', 'random_wifi', 'ble', 'classic_bt'])
-
-def update_csv(ts, valid_wifi, random_wifi, ble):
-	with open('recap.csv', 'a') as csvfile:
-		filewriter = csv.writer(csvfile, delimiter=',',
-                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
-		filewriter.writerow([ts,valid_wifi, random_wifi, ble, ' '])
 
 
 def parse_file(file_path, my_client_list):
@@ -68,19 +57,21 @@ def load_dict(probe_list, my_client_list):
 		#create the mac field
 		if not my_client_list.has_key(mac_addr):
 				my_client_list[mac_addr] = \
-					{"last_ts": ts[13:-15], "times_seen": 1, "last_rssi": rssi, "vendor": mac_resolved, "ssid": ssid, "life":c.LIFE_WIFI} 
+					{"last_ts": ts[13:-15], "times_seen": 1, "last_rssi": rssi, "vendor": mac_resolved, "life":c.LIFE_WIFI} 
 		else:
 			my_client_list[mac_addr]["times_seen"] += 1 
 			my_client_list[mac_addr]["last_rssi"] = rssi
 			my_client_list[mac_addr]["last_ts"] = ts[13:-15]
 			my_client_list[mac_addr]["life"] = c.LIFE_WIFI
 			#the ssid field is skippable
-			if ssid not in my_client_list[mac_addr]["ssid"]:
-				my_client_list[mac_addr]["ssid"].append(ssid)
-				my_client_list[mac_addr]["ssid"] = filter(None, my_client_list[mac_addr]["ssid"]) #delete last field if it's empty (no ssid inside probe)
+			#if ssid not in my_client_list[mac_addr]["ssid"]:
+			#	my_client_list[mac_addr]["ssid"].append(ssid)
+			#	my_client_list[mac_addr]["ssid"] = filter(None, my_client_list[mac_addr]["ssid"]) #delete last field if it's empty (no ssid inside probe)
 
 	return my_client_list
 
+
+##### BLUETOOTH
 
 def parse_hcidump(my_filename, my_list):
 	lines = [line.rstrip('\n') for line in open(my_filename)] #load the file
@@ -96,17 +87,77 @@ def load_bt(line_to_parse, my_list):
 	try:
 		mac_addr = line_to_parse[5]
 		rssi = line_to_parse[13]
-		print mac_addr, rssi
 		if not my_list.has_key(mac_addr):
 					my_list[mac_addr] = \
-						{"last_ts": strftime("%H%M%S", localtime()), "times_seen": 1, "last_rssi": rssi, "life":1} 
+						{"last_ts": strftime("%H%M%S", localtime()), "times_seen": 1, "last_rssi": rssi, "life":c.LIFE_BT} 
 		else:
 			my_list[mac_addr]["times_seen"] += 1 
 			my_list[mac_addr]["last_rssi"] = rssi
 			my_list[mac_addr]["last_ts"] = strftime("%H%M%S", localtime())
-			my_list[mac_addr]["life"] = 1
+			my_list[mac_addr]["life"] = c.LIFE_BT
 	except IndexError:
 		pass
 
 
 	return my_list
+
+
+#CSV FUNCTIONS
+
+def create_directory(directory_path):
+	try:
+		os.makedirs(directory_path)
+	except OSError as e:
+		if e.errno != errno.EEXIST:
+			raise
+
+def create_csv():
+	csv_list = ['wifi_non-random', 'wifi_random', 'ble', 'classic_bt']
+	my_path = 'goldmine/'+strftime("%y%m%d", localtime())+'/'+strftime("%H%M%S", localtime())+'/'
+
+	create_directory(my_path)
+
+	with open(my_path+'recap.csv', 'w') as csvfile:
+		filewriter = csv.writer(csvfile, delimiter=',',
+                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+		filewriter.writerow(['timestamp','valid_wifi', 'random_wifi', 'ble', 'classic_bt'])
+
+	for file in csv_list:
+		with open(my_path+file+'.csv', 'w') as csvfile:
+			filewriter = csv.writer(csvfile, delimiter=',',
+                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+			filewriter.writerow([i for i in range(-100, -30, 2)])
+
+	return my_path
+
+
+
+def update_csv(my_path, ts, valid_wifi, random_wifi, ble, bt):
+	with open(my_path+'recap.csv', 'a') as csvfile:
+		filewriter = csv.writer(csvfile, delimiter=',',
+                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+		filewriter.writerow([ts,valid_wifi, random_wifi, ble, bt])
+
+
+
+def final_csv(my_path, ts, wifi_dict, ble_dict, bt_dict):
+	rssi_list = []
+	empty_rssi = []
+	rssi_list.append([i for i in range(-100, -30, 2)])
+	empty_rssi.append([0 for i in range(-100, -30, 2)])
+	rssi_list = rssi_list[0]
+	empty_rssi = empty_rssi[0]
+	print rssi_list
+	print empty_rssi
+
+
+	for key, val in bt_dict.items():
+		rssi = int(val['last_rssi'])
+		if rssi not in rssi_list:
+			rssi += 1
+
+		#check if the rssi is less than the index, for each index of the rssi list. if yes increase it, else the val remain the same
+		empty_rssi = [item+1 if index >= rssi_list.index(rssi) else item for index, item in enumerate(empty_rssi)] 
+		
+	print empty_rssi
+		

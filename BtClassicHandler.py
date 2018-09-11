@@ -17,7 +17,7 @@ class BtClassicThread(threading.Thread):
 		self.is_running = True
 		self.bt_list = {}
 		#open hcidump > txt
-		self.file_path = "test.txt"
+		self.file_path = "test.txt" #change it
 		with open(self.file_path, "w") as dump_file:
 			subprocess.Popen(['hcidump', '-i', 'hci0', 'hci'], shell=False, stdout = dump_file)
 
@@ -26,12 +26,11 @@ class BtClassicThread(threading.Thread):
 	def run(self):
 		print "esd"
 		while self.is_running:
-			for i in range(0,1):
+			for i in range(0,c.BT_CYCLES):
 				discover_devices(lookup_names = True)
 			
 			self.bt_list = f.parse_hcidump(self.file_path, self.bt_list) #parse hcidump -> store mac address in dict
 
-			print self.bt_list
 			open(self.file_path, 'w').close() #clean txt file
 
 			self.queue.put(self.bt_list)

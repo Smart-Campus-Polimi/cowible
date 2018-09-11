@@ -21,7 +21,6 @@ class WifiThread(threading.Thread):
 		print "asd"
 		while self.is_running:
 			self.wifi_path = subprocess.check_output(['./tools/tshark.sh', strftime("%y%m%d", localtime()), str(c.TIMEOUT)])
-			print self.wifi_path
 			self.client_list = f.parse_file(self.wifi_path, self.client_list)
 			self.queue.put(self.client_list)
 			self.client_list = f.decrease_life(self.client_list)

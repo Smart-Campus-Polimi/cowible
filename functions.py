@@ -172,7 +172,7 @@ def final_csv(my_path, ts, dictionaries):
 				if rssi < c.CSV_LOWER: #-100
 					rssi = c.CSV_LOWER
 				elif rssi > c.CSV_UPPER-1: #-29
-					rssi = c.CSV_UPPER+1
+					rssi = c.CSV_UPPER-1
 				else:
 					rssi += 1
 

@@ -169,10 +169,10 @@ def final_csv(my_path, ts, dictionaries):
 		for key, val in single_dict.items():
 			rssi = int(val['last_rssi'])
 			if rssi not in rssi_list:
-				if rssi > c.CSV_LOWER:
-					rssi = c.CSV_LOWER+1
-				elif rssi < c.CSV_UPPER:
-					rssi = c.CSV_UPPER
+				if rssi < c.CSV_LOWER: #-100
+					rssi = c.CSV_LOWER
+				elif rssi > c.CSV_UPPER-1: #-29
+					rssi = c.CSV_UPPER+1
 				else:
 					rssi += 1
 

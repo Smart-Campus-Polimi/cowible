@@ -53,7 +53,7 @@ def parse_file(file_path, my_client_list):
 def load_dict(probe_list, my_client_list):
 	for probe in probe_list:
 		probe = probe.split(';') 	#create the list of single probe
-		ts, mac_resolved, mac_addr, rssi, ssid = probe #unpack the list 
+		ts, mac_resolved, mac_addr, rssi= probe #unpack the list 
 		try:
 			rssi = int(rssi)
 		except ValueError as e:
@@ -120,6 +120,7 @@ csv_list = ['wifi_non-random', 'wifi_random', 'ble', 'classic_bt']
 
 def create_directory(directory_path):
 	try:
+		print directory_path
 		os.makedirs(directory_path)
 	except OSError as e:
 		if e.errno != errno.EEXIST:

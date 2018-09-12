@@ -70,15 +70,18 @@ if __name__ == "__main__":
 		if not q_wifi_probe.empty():
 			client_list = q_wifi_probe.get()
 			wifi_flag = True
+			print "wifi finished"
 
 
 		if not q_ble_advertising.empty():
 			ble_list = q_ble_advertising.get()
 			ble_flag = True
+			print "ble finished"
 
 		if not q_bt_inquiry.empty():
 			bt_list = q_bt_inquiry.get()
 			bt_flag = True
+			print "bt finished"
 
 		if(wifi_flag and ble_flag and bt_flag):
 			random_wifi, valid_wifi, ble_devices, bt_devices = f.count_users(client_list, ble_list, bt_list)

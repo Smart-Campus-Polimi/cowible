@@ -57,7 +57,7 @@ if __name__ == "__main__":
 	q_bt_inquiry = Queue.Queue(c.BUF_SIZE)
 
 	t_wifi = WifiHandler.WifiThread(q_wifi_probe, data_path)
-	#t_wifi.start() 
+	t_wifi.start() 
 	thread_list.append(t_wifi)
 
 	t_ble = BleHandler.BleThread(q_ble_advertising)
@@ -92,7 +92,6 @@ if __name__ == "__main__":
 		if not q_bt_inquiry.empty():
 			bt_list = q_bt_inquiry.get()
 			bt_flag = True
-			pp.pprint(bt_list)
 			print "bt finished"
 
 		if(wifi_flag and ble_flag and bt_flag):

@@ -66,7 +66,8 @@ def insert_into_dict(my_dict, my_ts, my_mac, my_rssi, my_mac_resolved, is_wifi, 
 	
 	else:
 		my_dict[my_mac]["times_seen"] += 1 
-
+		
+		print my_ts, addSecs(my_dict[my_mac]["last_ts"], 60)
 		if (addSecs(my_dict[my_mac]["last_ts"], 60) < my_ts):
 			my_dict[my_mac]["last_rssi"][:] = [] #empty the list
 			
@@ -105,7 +106,8 @@ def load_dict(probe_list, my_client_list):
 			mac_resolved = mac_resolved[:-9]
 
 		#convert from string to datetime
-		now = datetime.strptime(ts[13:-15], '%H:%M:%S')
+		now = datetime.datetime.strptime(ts[13:-15], '%H:%M:%S').time()
+		
 
 		#create the mac field
 		if not my_client_list.has_key(mac_addr):
@@ -120,7 +122,7 @@ def load_dict(probe_list, my_client_list):
 			
 			my_client_list[mac_addr]["last_rssi"].append(rssi)
 
-			my_client_list[mac_addr]["last_rssi"] = rssi
+			my_client_list[mac_addr]["last_rssi"].append(rssi)
 			my_client_list[mac_addr]["last_ts"] = now
 			my_client_list[mac_addr]["life"] = c.LIFE_WIFI
 			

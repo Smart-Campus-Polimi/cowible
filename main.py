@@ -73,7 +73,7 @@ if __name__ == "__main__":
 	bt_list = {}
 
 
-	wifi_flag = True
+	wifi_flag = False
 	ble_flag = False
 	bt_flag = False
 
@@ -113,6 +113,6 @@ if __name__ == "__main__":
 			f.final_csv(path, timestamp, [non_random_wifi, random_wifi, ble_list, bt_list])
 			f.update_csv(path, timestamp, valid_wifi, random_wifi, ble_devices, bt_devices)
 
-			wifi_flag = True
+			wifi_flag = False
 			ble_flag = False
 			bt_flag = False

@@ -200,6 +200,11 @@ def create_csv():
 			header.insert(0,'ts')
 			filewriter.writerow(header)
 
+	with open(my_path+'ground_truth.csv', 'w') as csvfile:
+		filewriter = csv.writer(csvfile, delimiter=',',
+                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+		filewriter.writerow(['timestamp', 'real_people'])
+
 	return my_path, data_path
 
 
@@ -243,6 +248,12 @@ def final_csv(my_path, ts, dictionaries):
 			filewriter = csv.writer(csvfile, delimiter=',',
 				quotechar='|', quoting=csv.QUOTE_MINIMAL)
 			filewriter.writerow(payload)
+
+	real_people = subprocess.check_output(['cat', 'cowible/data/people.txt'])
+	with open(my_path+'ground_truth.csv') as csv:
+		filewriter = csv.writer(csvfile, delimiter=',',
+				quotechar='|', quoting=csv.QUOTE_MINIMAL)
+		filewriter.writerow([ts, real_people])
 
 
 def addSecs(tm, secs):

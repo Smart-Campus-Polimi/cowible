@@ -7,8 +7,7 @@ function ctrl_c() {
 }
 
 ################### END VAR DECL ##############
-day=$1
-path=data/$day
+path=$1
 time=$(date +"%H%M")
 text_file="/WiFi-$time.txt"
 path_full="$path$text_file"

@@ -5,6 +5,7 @@ from bluepy.btle import Scanner, DefaultDelegate, BTLEException
 import threading
 import sys
 import pprint as pp
+import datetime
 
 #my imports
 import functions as f
@@ -19,13 +20,19 @@ class ScanDelegate(DefaultDelegate):
 
 	def handleDiscovery(self, dev, isNewDev, isNewData):
 		global ble_list
+		now = datetime.datetime.now().time().replace(microsecond=0)
 		if not ble_list.has_key(dev.addr):
 				ble_list[dev.addr] = \
-					{"last_ts": strftime("%H:%M:%S", localtime()), "times_seen": 1, "last_rssi": dev.rssi,"life":c.LIFE_BLE} 
+					{"last_ts": now, "times_seen": 1, "last_rssi": [dev.rssi],"life":c.LIFE_BLE} 
 		else:
 			ble_list[dev.addr]["times_seen"] += 1 
-			ble_list[dev.addr]["last_rssi"] = dev.rssi
-			ble_list[dev.addr]["last_ts"] = strftime("%H:%M:%S", localtime())
+
+			if (f.addSecs(ble_list[dev.addr]["last_ts"], 60) < now):
+				ble_list[dev.addr]["last_rssi"][:] = []
+				
+			ble_list[dev.addr]["last_rssi"].append(dev.rssi)
+
+			ble_list[dev.addr]["last_ts"] = now
 			ble_list[dev.addr]["life"] = c.LIFE_BLE
 			
 
@@ -53,3 +60,4 @@ class BleThread(threading.Thread):
 	def stop(self):
 		print("close ble")
 		self.is_running = False
+		#check if exist a stop scan

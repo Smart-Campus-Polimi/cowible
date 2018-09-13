@@ -1,5 +1,16 @@
 #!/usr/bin/python
 
+
+#TODO
+#check lesse equal! ok
+#avg_rssi if they are in the last minute!	 ok
+#two different csv type
+#create path! ok
+
+#function for insert in dict
+#delete rssi list if greater than 50
+#change last_ts name
+
 import signal
 import sys
 import os
@@ -37,16 +48,16 @@ def signal_handler(signal, frame):
 #### MAIN ####
 if __name__ == "__main__":
 	signal.signal(signal.SIGINT, signal_handler)
-	print "COWIBLI v1.0"
+	print "COWIBLI v2.0"
 	
-	path = f.create_csv()
+	path, data_path = f.create_csv()
 
 	q_wifi_probe = Queue.Queue(c.BUF_SIZE)
 	q_ble_advertising = Queue.Queue(c.BUF_SIZE)
 	q_bt_inquiry = Queue.Queue(c.BUF_SIZE)
 
-	t_wifi = WifiHandler.WifiThread(q_wifi_probe)
-	t_wifi.start() 
+	t_wifi = WifiHandler.WifiThread(q_wifi_probe, data_path)
+	#t_wifi.start() 
 	thread_list.append(t_wifi)
 
 	t_ble = BleHandler.BleThread(q_ble_advertising)
@@ -62,7 +73,7 @@ if __name__ == "__main__":
 	bt_list = {}
 
 
-	wifi_flag = False
+	wifi_flag = True
 	ble_flag = False
 	bt_flag = False
 
@@ -81,14 +92,20 @@ if __name__ == "__main__":
 		if not q_bt_inquiry.empty():
 			bt_list = q_bt_inquiry.get()
 			bt_flag = True
+			pp.pprint(bt_list)
 			print "bt finished"
 
 		if(wifi_flag and ble_flag and bt_flag):
 			random_wifi, valid_wifi, ble_devices, bt_devices = f.count_users(client_list, ble_list, bt_list)
+			print '\n\n'
+			print '################################################################################'
 			print "Random users: ", random_wifi
 			print "Valid users: ", valid_wifi
 			print "Ble devices: ", ble_devices
 			print "Classic BT devices: ", bt_devices
+			print '\n'
+			print '################################################################################'
+
 			
 			non_random_wifi, random_wifi = f.split_random(client_list)
 			timestamp = strftime("%H:%M:%S", localtime())
@@ -96,6 +113,6 @@ if __name__ == "__main__":
 			f.final_csv(path, timestamp, [non_random_wifi, random_wifi, ble_list, bt_list])
 			f.update_csv(path, timestamp, valid_wifi, random_wifi, ble_devices, bt_devices)
 
-			wifi_flag = False
+			wifi_flag = True
 			ble_flag = False
 			bt_flag = False

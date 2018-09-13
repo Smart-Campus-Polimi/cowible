@@ -25,7 +25,7 @@ class BtClassicThread(threading.Thread):
 
 
 	def run(self):
-		print "esd"
+		print "Ok BT"
 		while self.is_running:
 			for i in range(0,c.BT_CYCLES):
 				discover_devices(lookup_names = True)

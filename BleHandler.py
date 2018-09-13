@@ -47,7 +47,7 @@ class BleThread(threading.Thread):
 
 
 	def run(self):
-		print("lol")
+		print("ok BLE")
 		while self.is_running:
 			# listen for ADV_IND packages for 60.0 (cannot use a variable), then exit
 			self.scanner.scan(60.0, passive=True)
@@ -61,5 +61,5 @@ class BleThread(threading.Thread):
 		print("close ble")
 		self.is_running = False
 		#stop scanning
-		self.scanner.stop()
+		#self.scanner.stop()
 		

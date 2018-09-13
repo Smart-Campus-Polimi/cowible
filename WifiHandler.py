@@ -1,5 +1,4 @@
 #!/usr/bin/python
-import os
 import threading
 import subprocess
 from time import strftime, localtime
@@ -19,12 +18,14 @@ class WifiThread(threading.Thread):
 
 
 	def run(self):
-		print "asd"
-		FNULL = open(os.devnull, 'w')
+		print "Ok WIFI"
 		while self.is_running:
+			print self.path
 			self.wifi_path = subprocess.check_output(['./tools/tshark.sh', self.path, str(c.TIMEOUT)])
+			print "finish wifi"
 			self.client_list = f.parse_file(self.wifi_path, self.client_list)
 			self.queue.put(self.client_list)
+
 			self.client_list = f.decrease_life(self.client_list)
 
 	def stop(self):

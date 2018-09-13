@@ -1,6 +1,7 @@
 import csv
 import copy
 import os, errno #for creating direcotry
+import subprocess
 from time import strftime, localtime
 import datetime
 
@@ -202,7 +203,7 @@ def create_csv():
 
 	with open(my_path+'ground_truth.csv', 'w') as csvfile:
 		filewriter = csv.writer(csvfile, delimiter=',',
-                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+                          quotechar='|', quoting=csv.QUOTE_MINIMAL)
 		filewriter.writerow(['timestamp', 'real_people'])
 
 	return my_path, data_path
@@ -248,9 +249,13 @@ def final_csv(my_path, ts, dictionaries):
 			filewriter = csv.writer(csvfile, delimiter=',',
 				quotechar='|', quoting=csv.QUOTE_MINIMAL)
 			filewriter.writerow(payload)
-
-	real_people = subprocess.check_output(['cat', 'cowible/data/people.txt'])
-	with open(my_path+'ground_truth.csv') as csv:
+	with open('data/people.txt') as file_people:
+		real_people = file_people.read()
+	
+	print "real people: ", real_people
+	print my_path
+#	real_people = subprocess.check_output(['cat', 'data/people.txt'])
+	with open(my_path+'ground_truth.csv', 'a') as csvfile:
 		filewriter = csv.writer(csvfile, delimiter=',',
 				quotechar='|', quoting=csv.QUOTE_MINIMAL)
 		filewriter.writerow([ts, real_people])

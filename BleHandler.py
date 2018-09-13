@@ -47,11 +47,11 @@ class BleThread(threading.Thread):
 
 
 	def run(self):
+		print("lol")
 		while self.is_running:
 			# listen for ADV_IND packages for 60.0 (cannot use a variable), then exit
 			self.scanner.scan(60.0, passive=True)
 			global ble_list
-			print("lol")
 			#pp.pprint(ble_list)
 			self.queue.put(ble_list)
 			ble_list = f.decrease_life(ble_list)
@@ -60,4 +60,6 @@ class BleThread(threading.Thread):
 	def stop(self):
 		print("close ble")
 		self.is_running = False
-		#check if exist a stop scan
+		#stop scanning
+		self.scanner.stop()
+		

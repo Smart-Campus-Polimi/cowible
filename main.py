@@ -98,6 +98,7 @@ if __name__ == "__main__":
 			random_wifi, valid_wifi, ble_devices, bt_devices = f.count_users(client_list, ble_list, bt_list)
 			print '\n\n'
 			print '################################################################################'
+			print '\n'
 			print "Random users: ", random_wifi
 			print "Valid users: ", valid_wifi
 			print "Ble devices: ", ble_devices

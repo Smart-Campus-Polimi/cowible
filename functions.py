@@ -209,7 +209,7 @@ def create_csv():
 	with open(my_path+'ground_truth.csv', 'w') as csvfile:
 		filewriter = csv.writer(csvfile, delimiter=',',
                           quotechar='|', quoting=csv.QUOTE_MINIMAL)
-		filewriter.writerow(['timestamp', 'real_people'])
+		filewriter.writerow(['timestamp', 'real_people', 'co2_digital', 'co2_analog'])
 
 	return my_path, data_path
 
@@ -256,13 +256,19 @@ def final_csv(my_path, ts, dictionaries):
 			filewriter.writerow(payload)
 	with open('data/people.txt') as file_people:
 		real_people = file_people.read()
+
+	with open('data/co2.txt') as file_co2:
+		co2 = file_co2.read()
+	co2 = co2.replace('\n', '')
+	co2 = co2.split(";")
+	print "co2 val:", co2
 	
 	print "real people: ", real_people
 #	real_people = subprocess.check_output(['cat', 'data/people.txt'])
 	with open(my_path+'ground_truth.csv', 'a') as csvfile:
 		filewriter = csv.writer(csvfile, delimiter=',',
 				quotechar='|', quoting=csv.QUOTE_MINIMAL)
-		filewriter.writerow([ts, real_people])
+		filewriter.writerow([ts, real_people, int(co2[0]), int(co2[1])])
 
 
 def addSecs(tm, secs):

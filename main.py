@@ -28,21 +28,25 @@ import functions as f
 import constants as c
 
 
-'''
-	CONSTANTS
-'''
+
 thread_list = []
 
 '''
-	FUNCTIONS
+	CTRL + C triggers the signal handler
 '''
 def signal_handler(signal, frame):
 	print "Exit!"
 
 	for thread in thread_list:
 		thread.stop()
+
+	subprocess.Popen(['killall', '-9', 'python'])
+	subprocess.Popen(['killall', '-9', 'sudo'])
+
+
+	#subprocess.Popen(['reset'])
 	
-	sys.exit(0)
+	sys.exit()
 
 
 #### MAIN ####
@@ -81,26 +85,26 @@ if __name__ == "__main__":
 		if not q_wifi_probe.empty():
 			client_list = q_wifi_probe.get()
 			wifi_flag = True
-			print "wifi finished"
+			print "wifi finish"
 
 
 		if not q_ble_advertising.empty():
 			ble_list = q_ble_advertising.get()
 			ble_flag = True
-			print "ble finished"
+			print "ble finish"
 
 		if not q_bt_inquiry.empty():
 			bt_list = q_bt_inquiry.get()
 			bt_flag = True
-			print "bt finished"
+			print "bt finish"
 
 		if(wifi_flag and ble_flag and bt_flag):
-			random_wifi, valid_wifi, ble_devices, bt_devices = f.count_users(client_list, ble_list, bt_list)
+			number_random_wifi, number_valid_wifi, ble_devices, bt_devices = f.count_users(client_list, ble_list, bt_list)
 			print '\n\n'
 			print '################################################################################'
 			print '\n'
-			print "Random users: ", random_wifi
-			print "Valid users: ", valid_wifi
+			print "Random users: ", number_random_wifi
+			print "Valid users: ", number_valid_wifi
 			print "Ble devices: ", ble_devices
 			print "Classic BT devices: ", bt_devices
 			print '\n'
@@ -111,7 +115,7 @@ if __name__ == "__main__":
 			timestamp = strftime("%H:%M:%S", localtime())
 
 			f.final_csv(path, timestamp, [non_random_wifi, random_wifi, ble_list, bt_list])
-			f.update_csv(path, timestamp, valid_wifi, random_wifi, ble_devices, bt_devices)
+			f.update_csv(path, timestamp, number_valid_wifi, number_random_wifi, ble_devices, bt_devices)
 
 			wifi_flag = False
 			ble_flag = False

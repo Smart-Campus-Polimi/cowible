@@ -1,3 +1,4 @@
+import sys
 import csv
 import copy
 import os, errno #for creating direcotry
@@ -43,12 +44,16 @@ def count_users(my_client_list, my_ble_list, my_bt_list):
 
 
 def parse_file(file_path, my_client_list):
-	#print "loading from ", file_path
-	lines = [line.rstrip('\n') for line in open(file_path[:-1])] #load the file
-
-	load_dict(lines, my_client_list) #manipulate the data // fill the dict
+	try:
+		lines = [line.rstrip('\n') for line in open(file_path[:-1])] #load the file
+	except IOError:
+		lines = None
+	
+	if lines:
+		load_dict(lines, my_client_list) #manipulate the data // fill the dict
 
 	return my_client_list
+	
 
 
 def insert_into_dict(my_dict, my_ts, my_mac, my_rssi, my_mac_resolved, is_wifi, is_ble, is_bt):
@@ -175,7 +180,6 @@ csv_list = ['wifi_non-random', 'wifi_random', 'ble', 'classic_bt']
 
 def create_directory(directory_path):
 	try:
-		print directory_path
 		os.makedirs(directory_path)
 	except OSError as e:
 		if e.errno != errno.EEXIST:
@@ -185,6 +189,7 @@ def create_directory(directory_path):
 def create_csv():
 	day = strftime("%y%m%d", localtime())
 	my_path = 'goldmine/'+day+'/'+strftime("%H%M%S", localtime())+'/'
+	print my_path
 	create_directory(my_path)
 	data_path = create_directory('data/'+day)
 
@@ -253,7 +258,6 @@ def final_csv(my_path, ts, dictionaries):
 		real_people = file_people.read()
 	
 	print "real people: ", real_people
-	print my_path
 #	real_people = subprocess.check_output(['cat', 'data/people.txt'])
 	with open(my_path+'ground_truth.csv', 'a') as csvfile:
 		filewriter = csv.writer(csvfile, delimiter=',',

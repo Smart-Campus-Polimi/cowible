@@ -20,7 +20,6 @@ class WifiThread(threading.Thread):
 	def run(self):
 		print "Ok WIFI"
 		while self.is_running:
-			print self.path
 			self.wifi_path = subprocess.check_output(['./tools/tshark.sh', self.path, str(c.TIMEOUT)])
 			print "finish wifi"
 			self.client_list = f.parse_file(self.wifi_path, self.client_list)
@@ -31,6 +30,6 @@ class WifiThread(threading.Thread):
 	def stop(self):
 		print "close wifi"
 		self.is_running = False
-		subprocess.Popen(['killall', 'tshark'])
+		subprocess.Popen(['killall', '-9', 'tshark'])
 
 	

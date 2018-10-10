@@ -2,7 +2,7 @@
 
 import threading
 import subprocess
-from time import strftime, localtime
+from time import strftime, localtime, sleep
 from bluetooth import *
 
 #my imports
@@ -29,6 +29,7 @@ class BtClassicThread(threading.Thread):
 		while self.is_running:
 			for i in range(0,c.BT_CYCLES):
 				discover_devices(lookup_names = True)
+				sleep(10)
 			
 			self.bt_list = f.parse_hcidump(self.file_path, self.bt_list) #parse hcidump -> store mac address in dict
 

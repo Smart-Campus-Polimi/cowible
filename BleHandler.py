@@ -10,6 +10,7 @@ import datetime
 #my imports
 import functions as f
 import constants as c
+import randomize
 
 
 global ble_list
@@ -22,8 +23,17 @@ class ScanDelegate(DefaultDelegate):
 		global ble_list
 		now = datetime.datetime.now().time().replace(microsecond=0)
 		if not ble_list.has_key(dev.addr):
+
+			#check if the mac is duplicated
+			is_in = False
+			siblings = randomize.generate_possible_siblings(dev.addr) #siblings is a list of all the possible siblings
+			for mac in siblings:
+				if mac in ble_list:
+					is_in = True 
+			
+			if not is_in:
 				ble_list[dev.addr] = \
-					{"last_ts": now, "times_seen": 1, "last_rssi": [dev.rssi],"life":c.LIFE_BLE} 
+						{"last_ts": now, "times_seen": 1, "last_rssi": [dev.rssi],"life":c.LIFE_BLE} 
 		else:
 			ble_list[dev.addr]["times_seen"] += 1 
 
@@ -50,7 +60,7 @@ class BleThread(threading.Thread):
 		print("Ok BLE")
 		while self.is_running:
 			# listen for ADV_IND packages for 60.0 (cannot use a variable), then exit
-			self.scanner.scan(60.0, passive=True)
+			self.scanner.scan(55.0, passive=True)
 			global ble_list
 			#pp.pprint(ble_list)
 			self.queue.put(ble_list)

@@ -260,7 +260,7 @@ def final_csv(my_path, ts, dictionaries):
 	with open('data/co2.txt') as file_co2:
 		co2 = file_co2.read()
 	co2 = co2.replace('\n', '')
-	co2 = co2.split(";")
+	co2 = co2.split(",")
 	print "co2 val:", co2
 	
 	print "real people: ", real_people

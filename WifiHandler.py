@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import threading
 import subprocess
+import copy
 from time import strftime, localtime
 
 #my imports
@@ -23,7 +24,7 @@ class WifiThread(threading.Thread):
 			self.wifi_path = subprocess.check_output(['./tools/tshark.sh', self.path, str(c.TIMEOUT)])
 			print "finish wifi"
 			self.client_list = f.parse_file(self.wifi_path, self.client_list)
-			self.queue.put(self.client_list)
+			self.queue.put(copy.deepcopy(self.client_list))
 
 			self.client_list = f.decrease_life(self.client_list)
 

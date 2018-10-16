@@ -4,6 +4,7 @@ from time import strftime, sleep, localtime
 from bluepy.btle import Scanner, DefaultDelegate, BTLEException
 import threading
 import sys
+import copy
 import pprint as pp
 import datetime
 
@@ -63,7 +64,7 @@ class BleThread(threading.Thread):
 			self.scanner.scan(55.0, passive=True)
 			global ble_list
 			#pp.pprint(ble_list)
-			self.queue.put(ble_list)
+			self.queue.put(copy.deepcopy(ble_list))
 			ble_list = f.decrease_life(ble_list)
 
 	

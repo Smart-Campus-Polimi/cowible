@@ -2,6 +2,7 @@
 
 import threading
 import subprocess
+import copy
 from time import strftime, localtime, sleep
 from bluetooth import *
 
@@ -35,7 +36,7 @@ class BtClassicThread(threading.Thread):
 
 			open(self.file_path, 'w').close() #clean txt file
 
-			self.queue.put(self.bt_list)
+			self.queue.put(copy.deepcopy(self.bt_list))
 			self.bt_list = f.decrease_life(self.bt_list)
 
 	def stop(self):

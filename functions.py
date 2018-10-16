@@ -36,8 +36,8 @@ def decrease_life(my_client_list):
 	return my_client_list
 
 def count_users(my_client_list, my_ble_list, my_bt_list):
-	copy_client = copy.deepcopy(my_client_list) #maybe useless
-	random_users = sum(1 for client in copy_client.itervalues() if client["vendor"] == "unknown") #sum number of random users
+	#copy_client = copy.deepcopy(my_client_list) #maybe useless
+	random_users = sum(1 for client in my_client_list.itervalues() if client["vendor"] == "unknown") #sum number of random users
 	valid_users = len(my_client_list.keys()) - random_users
 
 	return random_users, valid_users, len(my_ble_list.keys()), len(my_bt_list.keys())

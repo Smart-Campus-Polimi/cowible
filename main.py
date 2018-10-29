@@ -112,7 +112,7 @@ if __name__ == "__main__":
 
 			
 			non_random_wifi, random_wifi = f.split_random(client_list)
-			timestamp = strftime("%H:%M:%S", localtime())
+			timestamp = strftime("%y%m%d_%H:%M:%S", localtime())
 
 			f.final_csv(path, timestamp, [non_random_wifi, random_wifi, ble_list, bt_list])
 			f.update_csv(path, timestamp, number_valid_wifi, number_random_wifi, ble_devices, bt_devices)
